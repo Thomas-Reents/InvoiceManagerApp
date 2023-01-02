@@ -9,11 +9,17 @@ This app allows accountants to create invoices and have them approved or rejecte
 ## Getting Started
 
 For demoing purposes, a manager account and an admin account are seeded in the application. Their usernames and passwords are as follows:
+
 Manager
+
 	Username: manager@demo.com
+	
 	Password: Test@1234
+	
 Admin
+
 	Username: admin@demo.com
+	
 	Password: Test@1234 
 
 ## Authors
