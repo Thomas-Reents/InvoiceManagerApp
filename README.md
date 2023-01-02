@@ -8,6 +8,8 @@ This app allows accountants to create invoices and have them approved or rejecte
 
 ## Getting Started
 
+To use this application you will have to clone the resiptory locally and run it in Microsoft Visual Studio. This application uses an Azure SQL database. 
+
 For demoing purposes, a manager account and an admin account are seeded in the application. Their usernames and passwords are as follows:
 
 Manager
