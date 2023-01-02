@@ -1,0 +1,58 @@
+﻿@page
+@model IdentityApp.Pages.Invoices.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Invoice</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Invoice.InvoiceAmount" class="control-label"></label>
+                <input asp-for="Invoice.InvoiceAmount" class="form-control" />
+                <span asp-validation-for="Invoice.InvoiceAmount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Invoice.InvoiceMonth" class="control-label"></label>
+                <select asp-for="Invoice.InvoiceMonth" class="form-control">
+                    <option>Select Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <span asp-validation-for="Invoice.InvoiceMonth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Invoice.InvoiceOwner" class="control-label"></label>
+                <input asp-for="Invoice.InvoiceOwner" class="form-control" />
+                <span asp-validation-for="Invoice.InvoiceOwner" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
