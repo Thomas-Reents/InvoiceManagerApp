@@ -1,41 +1,22 @@
-# Project Title
+# Invoice Manager App
 
-Simple overview of use/purpose.
+This is a simple invoice management app built with Microsoft ASP.NET
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This app allows accountants to create invoices and have them approved or rejected by a manager. There are three account types, Admin, Manager, and accountant, which is the default type. Accountants can Read, Create, Edit, and delete their own invoices. The manager can read all invoices and either approve or reject a given invoice. The admin has the power to perform all these operations. 
 
 ## Getting Started
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+For demoing purposes, a manager account and an admin account are seeded in the application. Their usernames and passwords are as follows:
+Manager
+	Username: manager@demo.com
+	Password: Test@1234
+Admin
+	Username: admin@demo.com
+	Password: Test@1234 
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. Thomas Reents  
+ex. [@Thomas-Reents](https://www.linkedin.com/in/thomas-reents/)
