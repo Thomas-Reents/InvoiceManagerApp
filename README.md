@@ -30,7 +30,7 @@ Admin
 
 ![](Home%20page%20-%20IdentityApp.png)
 
-![](Home%20page%20-%20IdentityApp.png)
+![](Index%20-%20IdentityApp.png)
 
 ![](Home%20page%20-%20IdentityApp.png)
 
