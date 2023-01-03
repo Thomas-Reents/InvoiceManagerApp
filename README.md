@@ -6,6 +6,8 @@ This is a simple invoice management app built with Microsoft ASP.NET
 
 This app allows accountants to create invoices and have them approved or rejected by a manager. There are three account types, Admin, Manager, and accountant, which is the default type. Accountants can Read, Create, Edit, and delete their own invoices. The manager can read all invoices and either approve or reject a given invoice. The admin has the power to perform all these operations. 
 
+Invoices have three statuses, Submitted(default), Approved, and Rejected. 
+
 ## Getting Started
 
 To use this application you will have to clone the resiptory locally and run it in Microsoft Visual Studio. This application uses an Azure SQL database. 
