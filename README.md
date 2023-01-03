@@ -25,6 +25,10 @@ Admin
 	Username: admin@demo.com
 	
 	Password: Test@1234 
+	
+## Screen Shots
+
+
 
 ## Authors
 
