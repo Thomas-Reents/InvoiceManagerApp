@@ -28,11 +28,17 @@ Admin
 	
 ## Screen Shots
 
+Home Page 
+
 ![](Home%20page%20-%20IdentityApp.png)
+
+Invoice Page
 
 ![](Index%20-%20IdentityApp.png)
 
-![](Home%20page%20-%20IdentityApp.png)
+Details Page
+
+![](Details%20-%20IdentityApp.png)
 
 
 
