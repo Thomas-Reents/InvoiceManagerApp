@@ -10,7 +10,7 @@ Invoices have three statuses, Submitted(default), Approved, and Rejected.
 
 ## Getting Started
 
-To demo this application visit https://myinvoicemanager.azurewebsites.net/
+This application is deployed with Azure. To demo this application visit https://myinvoicemanager.azurewebsites.net/
 
 A manager and an admin account are seeded in the application. Their usernames and passwords are as follows:
 
