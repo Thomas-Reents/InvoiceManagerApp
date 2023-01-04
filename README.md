@@ -10,9 +10,9 @@ Invoices have three statuses, Submitted(default), Approved, and Rejected.
 
 ## Getting Started
 
-To use this application you will have to clone the resiptory locally and run it in Microsoft Visual Studio. This application uses an Azure SQL database. 
+To demo this application visit https://myinvoicemanager.azurewebsites.net/
 
-For demoing purposes, a manager account and an admin account are seeded in the application. Their usernames and passwords are as follows:
+A manager account and an admin account are seeded in the application. Their usernames and passwords are as follows:
 
 Manager
 
@@ -25,6 +25,10 @@ Admin
 	Username: admin@demo.com
 	
 	Password: Test@1234 
+	
+	
+Otherwise you can register your own accountantt account 
+
 	
 ## Screen Shots
 
