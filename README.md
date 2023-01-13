@@ -27,7 +27,7 @@ Admin
 	Password: Test@1234 
 	
 	
-Otherwise you can register your own accountantt account 
+Otherwise you can register your own accountant account 
 
 	
 ## Screen Shots
